@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Exploring How Radiation Exposure Will Affect Life Forms on the Way to Mars
+    </title>
+    <style>
+      * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      .title {
+        font-size: 50px;
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .img_cont {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+
+      .img {
+        width: 90%;
+      }
+
+      .text_cont {
+        width: 90%;
+        height: fit-content;
+        padding-right: 20px;
+      }
+
+      .radimg_cont {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+
+      .radimg {
+        width: 60%;
+        height: 550px;
+      }
+
+      .yeastimg_cont {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .yeastimg {
+        height: 500px;
+        width: 500px;
+      }
+
+      .credits_cont {
+        width: 100%;
+        height: 30px;
+        margin-top: 50px;
+      }
+
+      .credits {
+        font-size: 20px;
+        background-color: rgba(255, 255, 0, 0.388);
+      }
+
+      .returnbutton {
+        position: fixed;
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+        top: 2px;
+        right: 2px;
+        cursor: pointer;
+      }
+
+      .returnbutton:hover {
+        background-color: rgb(230, 230, 230);
+      }
+
+      .returnbutton:active {
+        background-color: rgb(210, 210, 210);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title_cont">
+      <p class="title">
+        Exploring How Radiation Exposure Will Affect Life Forms on the Way to
+        Mars
+      </p>
+      <a href="/space-biology-engine/main.html"
+        ><button class="returnbutton">Return to Home</button></a
+      >
+    </div>
+
+    <div class="text_cont">
+      <p class="text1">
+        A NASA-sponsored team has developed a discovery environment that enables
+        researchers to explore information on radiation exposure from numerous
+        spaceflight experiments and extend our understanding of how radiation
+        affects life forms in space.
+        <br />
+      </p>
+
+      <div class="radimg_cont">
+        <img
+          class="radimg"
+          src="https://science.nasa.gov/wp-content/uploads/2023/04/rad_bio_1.png"
+          alt=""
+        />
+        <br />
+      </div>
+      <p class="text2">
+        Spaceflight significantly increases exposure to ionizing radiation,
+        creating an environment that is not only detrimental to plant and animal
+        life, but one that is much different from that commonly experienced on
+        Earth. Mitigating the effects of radiation exposure represents a
+        critical challenge for future spaceflight missions. Thus, understanding
+        the effects the crew and other onboard organisms will experience during
+        spaceflight is a crucial area of research. Numerous experiments have
+        exposed different organisms to a wide range of space radiation
+        environments. However, data on the precise characteristics of the
+        investigation and especially on the radiation exposure experienced is
+        often complex to access and understand, even for experts in the field of
+        radiation biology.
+        <br />
+        <br />
+        A NASA-sponsored research team at the University of Wisconsin has
+        developed the Rad-Bio-App database to help all levels of
+        researchers—from experts to interested citizen scientists—explore space
+        biology-related radiation data. Rad-Bio-App is an interactive,
+        relational database that links previously conducted space biology
+        experiments according to the level and type of radiation exposure. It
+        also links experiments sharing other common features such as the
+        organism studied or mission hardware used. Rad-Bio-App enables the user
+        to filter through this web of relationships and easily “drill down” into
+        the results from studies with similar radiation environments or
+        features. This ability to interactively sort and filter allows
+        researchers to significantly extend the insights drawn from existing
+        results and adds value to the considerable investments already made in
+        conducting these experiments.
+      </p>
+      <div class="yeastimg_cont">
+        <img
+          class="yeastimg"
+          src="https://science.nasa.gov/wp-content/uploads/2023/04/rad_bio_2.png"
+          alt=""
+        />
+      </div>
+      <p class="text3">
+        But where does the data fueling Rad-Bio-App come from? Regular access to
+        space has allowed researchers to explore how this environment impacts
+        biological systems, including crew, animals, plants, and microbes that
+        accompany them. NASA’s GeneLab data repository has aggregated results
+        from many of these studies, including descriptions of their radiation
+        environments. Our team has capitalized on this resource to develop
+        Rad-Bio-App as a graphical discovery environment. We imported the
+        GeneLab-curated data from missions on the International Space Station,
+        the Space Shuttle, and free-flying satellites such as the Russian Bion
+        and Foton spacecraft. In addition, we added results from a variety of
+        experiments using terrestrial radiation sources such as particle
+        accelerators.
+        <br />
+        <br />
+        To help provide context for future missions, we also gathered the
+        radiation exposure data from the Mars Curiosity Rover mission while it
+        traveled to Mars and after it landed on the planet’s surface. For the
+        Moon, we used radiation data from the Apollo astronaut’s radiation
+        monitors, recent robotic explorers, and the Lunar Reconnaissance
+        Orbiter. The Moon and Mars data will enable researchers to place each
+        study in the context of the predicted radiation environment of future
+        missions beyond Low Earth Orbit.
+        <br />
+        <br />
+        Rad-Bio-App allows users to interactively filter experiments according
+        to their radiation exposure and many other elements of the experimental
+        design. Thus, Rad-Bio-App can be used to explore radiation responses
+        determined by previous spaceflight experiments and help put these
+        experiments in the context of radiation exposures likely to be
+        encountered in future exploration missions. For example, this tool was
+        used to identify datasets within the GeneLab data repository where mice
+        had experienced similar radiation doses to those expected during a
+        flight from Earth to Mars. These datasets contained analyses of the
+        patterns of gene expression (see figure a, below). Each individual study
+        provides some insight into possible genetic changes in the spaceflight
+        environment. Moreover, Rad-Bio-App allowed researchers to analyze
+        patterns of altered gene expression across multiple studies selected for
+        their common Earth-to-Mars-like radiation exposure and shared focus on
+        responses in the mouse. Such cross-study analyses identified clusters of
+        genes related to different biological functions that are seen across
+        multiple samples (see figure b). These gene clusters provide targets for
+        further research into how biology might respond to the radiation dosage
+        experienced while traveling from Earth to Mars, and represent new
+        targets for potential countermeasures to mitigate the harmful effects of
+        radiation exposure.
+        <br />
+        <br />
+        Rad-Bio-App provides critical contextual information on radiation that
+        enables researchers to extend the analysis of existing space biology
+        datasets. The database architecture of Rad-Bio-App is designed to
+        continuously incorporate the wealth and diversity of future space
+        biology studies. Thus, this tool should help provide an ever-expanding
+        insight into how life forms are affected by the complex and varied space
+        radiation environment.
+      </p>
+      <div class="img_cont">
+        <img
+          class="img"
+          src="https://science.nasa.gov/wp-content/uploads/2023/04/rad_bio_3.png"
+          alt=""
+        />
+      </div>
+      <p class="text4">
+        (a) Genes affected in spaceflight seen in multiple mouse RNAseq datasets
+        identified as experiencing radiation similar to that during Martian
+        transit (GeneLab Data Sets 243, 244, 246, 247, 248) were
+        cross-referenced to genes annotated as being radiation responsive. These
+        were then displayed as a heatmap that shows how genes were more or less
+        active in the spaceflight samples. (b) These genes were then grouped by
+        their predicted biological functions, providing insight into the
+        cellular processes that are likely being affected by the
+        Earth-to-Mars-like radiation exposure. Reproduced from Barker et al.,
+        2021 under Creative Commons License CC BY 4.0.
+      </p>
+      <p class="text5">
+        Project Lead:
+        <br />
+        Dr. Simon Gilroy, University of Wisconsin-Madisone
+      </p>
+      <p class="text6">
+        SPONSORING ORGANIZATION NASA Biological and Physical Sciences Division,
+        <br />
+        NASA Ames, and the University of Wisconsin-Madison.
+      </p>
+      <div class="credits_cont">
+        <p class="credits">CREDITS: NASA.org</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+  height: 175px;
+  width: 100%;
+}
+
+.logo{
+  height: 150px;
+  width: 25%;
+  background-color: aqua;
+}
+
+.header_text{
+  height: 140px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.title{
+  margin-top: 25px;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.subtitle{
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;text-align: center;
+
+}
+
+.buttons_cont{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  background-color: rgb(200, 200, 200);
+}
+
+#buttons{
+  width: max;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 5px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  font-size: 17.5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buttons:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+#buttons:active{
+  background-color: rgb(220, 220, 220);
+}
+
+.mid{
+  height: 750px;
+  width:100%;
+}
+
+.about{
+  text-align: center;
+  width: 91%;
+  height: 320px;
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.abouttitle{
+  margin-top: 50px;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.topic_buttons{
+  width: 100%;
+  height: 70px;
+  display:grid;
+  justify-content: center;
+}
+
+#buttonsa{
+  height: 50px;
+  width: 1000px;
+  margin-bottom: 10px;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#buttonsa:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+#buttonsa:active{
+  background-color: rgb(220, 220, 220);
+}
+
+.footer{
+  height: 150px;
+  width: 100%;
+  background-color: darkslategray;
+  margin-top: 320px;
+  margin-bottom: 0;
+  color: white;
+  padding-top: 20px;
+}
+
+.madeby, .madefor, .cc{
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+
+.user1{
+  margin-right: 10px;
+}
+
+.user2{
+  margin-right: 30px;
+}
+
+.user1, .user2{
+  font-size: 20px;
+  margin-bottom: 0px;
+  float: right;
+  position: relative;
+  top: -80px;
+}

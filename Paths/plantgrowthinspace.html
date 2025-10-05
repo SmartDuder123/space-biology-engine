@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Plants in Space (Podcast)</title>
+    <style>
+      * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      .title {
+        font-size: 50px;
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .img_cont {
+        width: 100%;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .img {
+        height: 371px;
+        width: 500px;
+      }
+
+      .text_cont {
+        width: 90%;
+        height: fit-content;
+        padding-right: 20px;
+      }
+
+      .radimg_cont {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+
+      .yeastimg_cont {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .yeastimg {
+        height: 310px;
+        width: 664px;
+      }
+
+      .credits_cont {
+        width: 100%;
+        height: 30px;
+        margin-top: 50px;
+      }
+
+      .credits {
+        font-size: 20px;
+        background-color: rgba(255, 255, 0, 0.388);
+      }
+
+      .returnbutton {
+        position: fixed;
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+        top: 2px;
+        right: 2px;
+        cursor: pointer;
+      }
+
+      .returnbutton:hover {
+        background-color: rgb(230, 230, 230);
+      }
+
+      .returnbutton:active {
+        background-color: rgb(210, 210, 210);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title_cont">
+      <p class="title">Plants in Space (Podcast)</p>
+      <a href="/space-biology-engine/main.html"
+        ><button class="returnbutton">Return to Home</button></a
+      >
+    </div>
+
+    <div class="text_cont">
+      <p class="text1">
+        Pat Ryan (Host): Houston, we have a podcast. Welcome to the official podcast of the NASA Johnson Space Center, Episode 172, “Plants in Space.” I’m Pat Ryan. On this podcast, we talk with scientists, engineers, astronauts, all kinds of experts about their part in America’s space exploration program. Today’s guests are from the scientist category, and, you may have guessed, we’re talking plant science. To explore space with human beings, there are some hurdles to jump that just aren’t there for robotic missions. You got to provide air for your humans to breathe, water for them to drink, food for them to eat. Now, you’ve gone food shopping. Imagine the space you would need to store all of the food that it would take to feed a crew of astronauts on a mission to Mars that will last for years, and with no grocery stores along the way. We checked. Sustainable human exploration means having a way to provide food without bringing it all with us, and not counting on having food replicators like they have on Starfleet vehicles, we need another way. Fortunately, we have scientists who’ve been working on this challenge for years, and today, I get to talk to two of them about our progress. Dr. Gioia Massa works on space crop production for the International Space Station and future missions at the NASA Kennedy Space Center, where she led the science team for the in-space validation of the Veggie experiment hardware and now leads an interdisciplinary group studying how both fertilizer and light affect the flavor of crops grown in Veggie. She’s also involved in education and outreach programs related to plants in space and works with other scientists to get their plant experiments to work on the station. Dr. Anna-Lisa Paul is the director of the Interdisciplinary Center for Biotechnology Research at the University of Florida, and she’s a research professor in the department of horticultural sciences there, where she studies the responses of plants to novel environments, with a focus on the environments related to space exploration. She’s performed ten experiments in space over the past 20 years as well as in analog environments on aircraft, suborbital vehicles, and extreme terrestrial environments in the Canadian high arctic and in Antarctica. So, time to find out the latest on how plants will impact our future in space. Here we go.
+        <br>
+        <br>
+        Host: It’s pretty obvious that we send astronauts out to space, we have to provide for their needs. We have to feed them. And on short missions, we do that by delivering supplies to them in spaceships. Why is that not the answer or maybe not the whole answer when we send astronauts out on longer missions, like to the Moon or the Mars? Anna-Lisa Paul, what do you think?
+        <br>
+        <br>
+        Anna-Lisa Paul: Well, the easy answer for that is that plants are the only things that’ll actually allow us to explore past the limits of the picnic basket. If you go to another place that’s far away, whether that be the Moon or Mars, to live, that means not just be a tourist to visit for a short period of time, you need something that you can take with you that can grow and propagate and allow you to sustain your life there. And so, plants are the reason. Plants are the things that we can do that. They recycle our environments. They provide us with food. They gather their resources from the surfaces that we visit. Yup, plants are the things that we need to do that.
+        <br>
+        <br>
+        Host: You’re saying that plants are providing more than just food. They’re necessary for other parts of this environment. But we can’t just bring the food that we need to satisfy that?
+        <br>
+        <br>
+        Anna-Lisa Paul: No, not at all. For one reason is that you just physically can’t bring enough with you. I mean, think about the voyagers that went in the Pacific Ocean back in the Polynesian exploration eras. They didn’t pack up their vehicles with everything they needed. They brought the things with them that they could propagate when they got there.
+        <br>
+        <br>
+        Host: Plus, they needed that space in order to bring home the riches that they would find.
+        <br>
+        <br>
+        Anna-Lisa Paul:Perhaps. [Laughter]
+        <br>
+        <br>
+        Host:Gioia Massa, I assume you agree. Why is it that we have to bring plants with us on these missions of exploration?v
+        <br>
+        <br>
+        Gioia Massa: Yeah, I definitely agree with Anna-Lisa. You know, one of the things about the package diet — I mean, the package diet is excellent. You know, the astronauts right now, they eat about 180 different foods and another 20 or so, you know, condiments and beverages, but when you store that diet for a long period of time — and we’re going to need to store it if, you know, we go on a Mars mission. We may actually have to send some of the packaged food ahead of the crew. And so, it might even be sitting on the planet’s surface, you know, before they even launch from Earth. And if you’re storing that for a long duration, the quality and the nutrition of that food degrades. So even in the near term, even in a pretty short mission to Mars, we can’t guarantee that we’re going to provide all the nutrition that the astronauts are going to need. And, you know, the quality is really important, too. People get kind of tired of eating the same thing, and so it’s got to taste really good. So, plants, I think, are going to be a really great way to provide the nutrients that people need and provide some dietary variety and, you know, interest, even in relatively short-term missions. But, you know, the farther we go and the longer we stay, the only way to really gain Earth’s independence is to be able to produce, you know, your food and not have to ship everything, and plants are a fantastic way to do that, and that’s how we survive on Earth.
+        <br>
+        <br>
+        Host: There are a couple of points that you bring up. About nutrients, do people in space, do their bodies need the same nutrients that people on Earth need?
+        <br>
+        <br>
+        Gioia Massa: Well, you know, in many ways, yes. You know, I mean, we have certain nutrients that are required to sustain our life. There are some things that we maybe don’t want in as high a quantity as we might get away with on Earth because of some of, you know, the physiology going on in response to spaceflight. So, you know, for instance, we don’t maybe want a ton of calcium in the diet. We want a moderate amount, but if you have too much calcium, it can cause kidney stones and things like that. If you have too little, it might contribute to bone loss. So, you know, most of the nutrients are pretty similar to what we want on Earth, but, you know, again, with the astronaut demographic, that causes certain nutrition. So, you know, age and body mass and gender, all of those things contribute to what nutrients that you need. And so, the Human Research Program works really hard to make sure that the nutrition is there for the astronaut. And so when we look at the plants, we want to make sure that we’re complementing the nutrients that are in the diet and not giving, you know, too much of something or not enough of others, but especially, we want to complement those nutrients that might degrade in the diet as it ages.
+        <br>
+        <br>
+        Host:It occurs to me that there may be certain nutrients that we get here on Earth from the environment that might not be available to an astronaut in space, and that we would have to supplement in order to make sure they get those things that they need, that they can’t get in the way we do, quote unquote, “normally.”
+        <br>
+        <br>
+        Gioia Massa: Yeah, I’m not an expert in human physiology and nutrition, so, you know, I think the first one that springs to mind is obviously vitamin D, which we make in response to sunlight. And I do believe the astronauts supplement their diet with vitamin D, but I’m not sure about the other things. But, you know, I do know that plants make a lot of the vitamins that we need. Vitamin C is a big one that plants make in abundance. A lot of plants make this, and, you know, if you eat, say, a chili pepper, you’ll get as much vitamin C as you would if you were eating a fresh orange from Florida or Texas or California, yeah, or even more. So, some of the vegetables are incredibly nutritious, and vitamin C is one of the nutrients that does break down with storage in the package diet, so that’s one that plants can easily be used to supplement.
+        <br>
+        <br>
+        Anna-Lisa Paul: And another way that plants can help with the supplementation of nutrients is that, in addition to just making them if you’re, for instance, on a space station or in transit, plants also can capture the nutrients from the environment that we normally wouldn’t be able to have available to us. So, for instance, just think about Mars. Everybody thinks, “Wow, there’s plenty of iron on Mars, so we’ll never be deficient in iron.” Well, a human can’t eat the iron that’s on Mars. You know, you can’t metabolize it, but a plant growing in a substrate that contains Martian regolith can break down that regolith and incorporate the iron that is in the dirt, the regolith, into organic complexes in their cells that then humans can eat and metabolize. And that’s the way it also works on Earth. And even in vitamin supplements, you don’t just eat iron oxide to get your vitamin supplements. They have to be complexed in certain ways in order to make them available to your body. And in that way, plants can recoup the environmental resources that humans would not be able to access otherwise.
+        <br>
+        <br>
+        Host:The plants are the delivery system. They extract, in this case, the iron from that soil and put it into a form that your body can process and take it in. So, we do know how to provide nutrients. We understand what astronauts need and we know how to provide them. The question becomes then, do we know how to grow the plants that would do that? And you two have been working for years on experiments that have been teaching us how to grow plants in space. Anna-Lisa Paul, tell me about some of the things that you have worked on in your history, which goes back beyond the space station, back into the shuttle program, right?
+        <br>
+        <br>
+        Anna-Lisa Paul:Yeah, that’s right. So, my colleague Rob Ferl and I had our first spaceflight experiment back in 1999 on shuttle Columbia. And since then, we have been working predominantly with, not crop plants, but with a model organism called Arabidopsis thaliana. And Arabidopsis is a great sort of the white mouse of the plant world, and we use it because its genome has been completely sequenced. We understand its physiology, and so we can tweak the system very effectively. And it’s also really tiny. Arabidopsis is quite happy growing on a 10-centimeter Petri plate, and so most of our experiments are grown not necessarily in what you would think of as a greenhouse or a soil habitat or anything like that, but rather, they’re grown on nutrient agar in little tiny Petri plates. And we’ve learned quite a bit about the basic metabolic processes of how plants respond to spaceflight by working with these little Arabidopsis plants. We know, for instance, that plants know when they’re in space. They respond by turning on and turning off all manner of genes, and we know that they do that to physiologically adapt their metabolism to this new and novel environment. And it’s important, when you think about it, I mean, space is totally new. It’s totally novel, outside the evolutionary experience of any terrestrial organism. And so, if we want to know what a plant is going to do when it’s growing in space or even growing on the surface of another planet, we have to be prepared to really dig down deep into understanding how do you respond to something you have no idea what that means. And so that’s what we’ve been doing for years is looking —
+        <br>
+        <br>
+        Host: We have to expose them to it and find out, right?
+        <br>
+        <br>
+        Anna-Lisa Paul:Exactly. Exactly.
+        <br>
+        <br>
+        Host:You said that you’ve seen that they’ve responded by turning genes off. Is that all mostly the lack of gravity that they’re responding to?
+        <br>
+        <br>
+        Anna-Lisa Paul:Well, we tend to think of it more as the spaceflight environment because there’s more to it than just the lack of gravity, and we tend to think about this concept of turning genes on and off as a toolbox. And so, you know, what plants do to respond to these environments is they dig into their genetic toolbox to find something that will make them feel better, essentially, make them adapt better to that environment. And by looking at the patterns of tools that they use, you get a sense for what’s important to those plants. So, for instance, we know that plants respond to spaceflight by engaging a lot of what we call reactive oxygen species pathway genes. And what that means is, certain types of stress that plants have on the ground, they engage those responses in space to deal with that kind of stress. They also modify their cell walls when they’re in space. And so, we see a lot of genes that are associated with what we call cell wall remodeling, which sort of changes the density and the flavor of their cell walls to respond to dealing with an environment that’s not Earth.
+        <br>
+        <br>
+        Host:Do we have any sense yet of whether or not those responses impact the plant’s ability to provide nutrients to people?
+        <br>
+        <br>
+        Anna-Lisa Paul:Hmm. Whether they replied, tend to respond nutrients to people, I guess we don’t really know the answer to that question, but what we do know is that they do modify the way they get nutrients for themselves. And so, the way that plants respond to, for instance, the growth patterns of their roots and the way they seek out nutrients as they’re growing is indeed impacted by how they express their genes, and we’ve seen different mechanisms by which spaceflight changes that. And so — not how humans get the nutrients from the plants, but how the plants get the nutrients for themselves is changed by spaceflight.
+        <br>
+        <br>
+        Host:I see. Now, Gioia, actually, you and I first became acquainted a few years ago in talking about an experiment on the International Space Station and trying to figure out how hardware was going to be able to be used to grow plants in space. Tell me about some of that work.
+        <br>
+        <br>
+        Gioia Massa:Yeah. So mostly, I’ve been working with a system called Veggie. So, Veggie’s a plant growth chamber on the International Space Station. And indeed, a lot of Anna-Lisa’s experiments in Petri dishes have also been run in Veggie. Veggie’s really a multi-purpose plant platform. So, you can grow plants in Petri dishes. You can even grow algae in bags, and you can grow crop plants in different containers. So, we’ve been growing, so far, mostly leafy green crop plants and actually started to get, you know, the astronauts to be able to grow and eat some of these plants. And we also bring samples back to look at the nutrients that you were just talking about as well as the microbial food safety because, you know, the ISS isn’t just a laboratory. It’s really an ecosystem. And you have people living there, you have their microbiomes and you have the plants, and you have their microbiomes. So, you actually have a lot of different organisms up in this environment, and we need to make sure that anything that we grow in this habitat is going to be, you know, safe for the crew to eat. So, what we’ve been doing with Veggie is looking at, you know, comparisons between flight and ground grown plants. And, as Anna-Lisa said, there are a lot of spaceflight effects. A lot of it’s really the environment, things like fluid physics, which is very different without convection, you know, and without gravity on the International Space Station. So, watering your plants becomes really challenging because plant roots need water. They also need oxygen, and water and air don’t mix well in space, and so it’s a very different process. So, we’re looking at how all of these things impact how well the plants grow, how nutritious they are, and how safe they are to eat and even how they taste. We’ve actually had astronauts doing taste tests this past year. We’re just getting all of these data together right now, but the astronauts actually rated the plants even more highly than they were rated, you know, on Earth when we sent them for taste tests. So, they also, you know, just seemed to really enjoy them. There were a lot of posts on Instagram and Twitter about eating the produce and, you know, people seemed to really like having that variety and that addition, you know. I think there’s some novelty factor to it as well, but just adding that to the packaged foods, you know, they came up with all sorts of interesting and creative ways to do that, and we got lots of great comments back from the astronauts about it.
+        <br>
+        <br>
+        Anna-Lisa Paul:So Gioia, let me ask you, there’s been a lot of work, too, on sort of the psychological benefit, too, of plants that you’ve worked with, isn’t that right?
+        <br>
+        <br>
+        Gioia Massa: Yeah, that’s correct, Anna-Lisa. We’ve been doing surveys this past year with the crew on how, you know, interacting with Veggie, with the plants, impacts their mood and their wellbeing and things like their connection to Earth. And, you know, we’re still analyzing all those data, but in general, it’s all been pretty positive, you know, though it varied a lot by crew member. So, some people loved the plants. They spent a lot of time with them. Other people, you know, they’d eat them, and that was pretty much, that was their whole interaction. And so, I think it’s just like any group of people anywhere, you know. Unless you’re at a garden club, there’s a vast variety of people’s responses to plants. But even the people that didn’t really spend a lot of time with them did comment that they thought it was valuable and meaningful to have plants, and they could see the importance for plants in future missions. So that was great to get that response from the astronauts.
+        <br>
+        <br>
+        Host: I think that when they select astronauts, they try to screen out the picky eaters, though, too.
+        <br>
+        <br>
+        Gioia Massa: That’s definitely true. Yeah. You actually can’t have dietary restrictions, I don’t think, when you’re selected, or that is something, because the diet is shared by so many and because it’s so carefully developed to make sure that they can get all the nutrition that they need. They don’t want any picky eaters. But —
+        <br>
+        <br>
+        Host:You will eat it and you will like it.
+        <br>
+        <br>
+        Gioia Massa: Yeah. But you do miss things like fresh juicy, you know, crispy vegetables because that’s not really a texture or, you know, a combination that you get. So, I’ve heard from a number of crew that thought, you know, “I thought I’d want a pizza or cheeseburger the first thing that I got back, and all I really wanted was a salad.” So that’s kind of interesting.
+        <br>
+        <br>
+        Host:Yeah. Theoretically, could we grow any plant we wanted to in space?
+        <br>
+        <br>
+        Anna-Lisa Paul:Well, you know, within reason. I think space is always, you always have to think of things in terms of resources, right? And so your resources are limited, so you can’t really grow, say, a banana tree or a plum tree, and the reason why I mention a plum tree and Gioia can speak on this quite a bit as well, too is that there’s been a lot of work on trying to miniaturize plants and also sort of obviate some of the problems that, say, a fruit tree has of, you know, they only flower once a year and they get really big, et cetera, et cetera. And so, some of the work that’s been done down at Kennedy Space Center has been, in fact, to do things like look at certain mutations in natural mutations in plants that have made them, and plum trees is one of these, where they’re much smaller. They grow almost like vines. They bloom and fruit continuously. And so now you can envision, you know, having some kind of viny thing growing on a space station or someplace else that would allow you to have kind of fresh fruit. But for the most part, we have not, to my knowledge, anybody, any of us working in this field have come across any showstopper for growing plants in space. It’s a lot like what Gioa was saying is, if you can manage your habitat, you can manage the water, if you can manage, you know, the gas exchange, that kind of thing, you know, pardon the pun, sky’s the limit. You can do almost anything because plants know they’re in space. They modify their metabolisms to adjust to it, but they do pretty much just fine.
+        <br>
+        <br>
+        Gioia Massa: Yeah. Exactly. It’s amazing how plastic they are in their growth. You know, they can really just respond and survive if you can give them, you know, at least most of the conditions within a certain ideal range. And, you know, I think what Anna-Lisa is saying, it kind of really opens up the possibilities for the development of custom space plants that will be dwarf, that will be high-yielding, that will have, you know, a very high percentage of edible proportions to inedible materials. Maybe they don’t need all the structure that plants on Earth need because with, you know, microgravity or reduced gravity on planetary surfaces, you don’t have as much force that you need to work against to hold yourself up. And so, all of that material could then be converted into, you know, useful, edible nutrients and things like that. So, I think there’s a lot of potential for custom space plants in the future.
+        <br>
+        <br>
+        Anna-Lisa Paul:Oh, yeah. I agree with that completely. Sorry. So, one of the things that I often like to say is that plants are absolute masters of their metabolic universe and, as Gioia was saying, they’re so plastic, and they’re so adaptable to all sorts of environments, and they’re very engineerable. And so not only can you engineer the plants themselves. You can also engineer their habitat, and so you can change, for instance, you know, the growth patterns, the flavors even, the colors, just by changing, for instance, their lighting regime. There’s been a lot of work on now that we have such sophisticated LED technology that you can tweak the wavelengths of the habitat and the very same plant, the very same genotype can create different flavor regimes, different color regimes. If you’ve ever had one of those sort of artisan salads with the little tiny microgreens, a lot of those are the same plants, like miniature broccolis and things, that are grown with different LED lighting to give them either spicier taste or redder leaves or different kind of features that introduce variety without having to complicate the number of types of seeds and things that you actually bring.
+        <br>
+        <br>
+        Host:Or to have different habitats to grow each one of them individually, which you wouldn’t have space for.
+        <br>
+        <br>
+        Anna-Lisa Paul:Mm-hmm. Exactly.
+        <br>
+        <br>
+        Host:So, what you’re saying is that we theoretically could grow about anything we wanted to. We would then make a decision on what we would try to grow based on a number of other factors. The habitat that was required, the space that would be required — you can’t grow the great big tree because you don’t have room for it, et cetera, is that it?
+        <br>
+        <br>
+        Anna-Lisa Paul:Right. Right. Yeah, exactly. And the other thing that you have to take into consideration is the waste material, right? And so, the more that you can use of a plant, the better. And so, for instance, let’s think about carrots, right? You can eat every bit of a carrot. You can eat the leaves, which is parsley, you know, you can eat the root, but if you’re growing something, like, say, potatoes, all you can eat is the tuber. So, you have to also balance the pros and cons of, what are you going to have to do? What are the resources you’re going to have to invest to recycle the inedible biomass. And, you know, again, Gioia also has done a lot of work with her colleagues down at Kennedy on doing the biomass equations and what it is that you need to think about before you choose a particular plant to grow.
+        <br>
+        <br>
+        Host:And when we say biomass, what do we mean by that?
+        <br>
+        <br>
+        Gioia Massa: Yeah, the biomass is, you know, the biologically created material, right? So, you have your edible biomass, which is the portion of the plant you can eat, and then your inedible, you know, as Anna-Lisa said, that has to become a resource to grow the next set of crops. So, we have to figure out how to take, say, your leaves and stems and roots of a tomato plant and get those nutrients back out to grow the next set of tomatoes. And one thing I’ll add to what Anna-Lisa said, which, you know, really summarized everything very well is, another factor for choosing plants is also going to be kind of the mission and mission duration. And, you know, some plants take longer to mature than others, and depending on the different phases of a space mission, there might be different crops that will work really well. So, she mentioned microgreens, you know, those small plants that you’ll find in salad mixes or you’ll find them, you know, on top of your fish at a nice restaurant. Those are really amazing crops, and it’s not just one type of plant. You know, anything that you can grow, you know, and eat the plants of, you can grow as a microgreen for about two weeks. And so, they don’t require a lot of resources, but they actually have a lot of flavor and a lot of nutrition, around four to ten times the nutrient density of the mature plant. So, they might be a great option if you only have, you know, a few weeks in between a transition to a different phase of the mission, but you still want to supplement your diet with fresh produce.
+        <br>
+        <br>
+        Host:I get the sense that you guys are thinking far enough ahead in this that you’re thinking about different generations of not only the same crop but of also some sort of crop rotation in the fields in order to get to the variety that you were referring to before, to have different things for the crew members to eat.
+        <br>
+        <br>
+        Anna-Lisa Paul:Yeah. Absolutely. If you think about it, the thing that is the most important in a long-term exploration is to keep things novel, to keep things with variety. If you read any of the old accounts of, for instance, Arctic or Antarctic expeditions that that’s one of the things that is always discussed is how food gets old and tired. And even in the most restricted expeditions and stuff, you find the crew members trying to grow tiny plants in their cabins and things just to have some green and living thing. Rob Ferl and I have done a lot of work in analog environments in the Arctic and in the Antarctic, and a lot of that has been work with greenhouses. And one of the things that you don’t viscerally appreciate until you’re actually there is how fantastic and wonderful it is not only to be able to have a fresh salad when the supply ship is three months away, but also walking into the greenhouse after you’ve had three days of a whiteout and haven’t been able to see anything, and then you walk into this greenhouse that is alive and breathing and, you know, there’s moisture in the air and there’s just a bit of home, it does something to you, and it evokes this, just an amazing feeling. And I’m only half a world away, you know. Imagine what it’s like when you’re on another planet. So, it’s important. It’s important on a lot of different levels.
+        <br>
+        <br>
+        Host: It occurs to me that, in some respect, what I have trouble with, in my mind, is quantity. If you put four or six astronauts on a ship and send them off to Mars and you think about, how much does each person eat per meal, three meals a day plus snacks, and they’re going to be gone for that long, how do you provide a sufficient quantity for everybody to eat?
+        <br>
+        <br>
+        Gioia Massa: I mean, it is tough, you know, and there’s not a lot of space to grow the plants, and there probably won’t be a lot of space, you know, until we have, say, a permanent presence on the Moon and on Mars. So, I think a little goes a long way in terms of having the psychological benefit. You know, maybe you’re only going to get one salad a week or, you know, a few leaves every day or something. But seeds are small. Seeds are very small, very light, so you can actually take a lot of seeds on a mission without taking up a lot of room. So I think developing kind of a sustainable, renewable growth approach is going to be really important, and then figuring out, you know, the scheduling aspects of when to grow crops and maybe always having, you know, the availability of something but maybe — I mean, you don’t want to grow 30 heads of lettuce in a day and then no lettuce for the rest of the month, right? So, crop scheduling is really important, and a lot of that goes back to hardware design and volume optimization. And so, we actually have a lot of engineers kind of looking at that and figuring out how we can do that scheduling.
+        <br>
+        <br>
+        Anna-Lisa Paul:And probably many of your listeners have seen the movie “The Martian” or read the book, and, you know, those of us in the business just, of course, love having a hero, protagonist who is a botanist. But one of the things that also really appealed to many of us in that movie is this concept of, let’s do the math, and that’s something that is absolutely important to the whole discussion. And that’s one of the things that we collectively do and what will be happening for the future when you do design a true life support system that will be reliant on by astronauts or colonists is, the math will be in there in that precisely how much area that you need, you know, what are the kind of schedules, like Gioia was saying, that you put on. How do you harvest things, you know? What are the nutrients you put in? The beauty of doing this kind of controlled agriculture is, you can control every photon that goes into that system. You can control every gram of nutrient mix that goes in, and so, you have a reasonable expectation of what can come out, and you can tweak the system as you go. So it’s really high science, this kind of farming, and the kind of farming that goes into this type of equation for doing exploration science translates back to learning more about how we can be more efficient here on Earth for doing protected agriculture in places that, you know, can’t do farming in their normal kind of scenarios or doing support for areas that are fragile. And so, it really has become an interesting loop of learning between the protected agriculture communities here on Earth and the kind of science that NASA and other space biology folks are doing. It’s a pretty cool loop.
+        <br>
+        <br>
+        Host:Do you have an example or two of some of those things and how they’ve been applied?
+        <br>
+        <br>
+        Anna-Lisa Paul:Some of the stuff, for instance, that we’re working on is, alright, so, you want to go to Mars, and you want to set up, say, a greenhouse so that there can be things growing on Mars before the astronauts get there. But in order to do that effectively, you want to be able to monitor how the plants are growing, you know, how the nutrient delivery systems are working from a distance. And so, we’ve been doing a lot of work with remote sensing and sort of telefarming, if you will, and we do this with the analog down in Antarctica at the Neumayer III station. And some of that same kind of technology is being used in both greenhouse farming here on Earth where people are using specialized cameras that are able to do different type of wavelength monitoring, that can tell you about the health and wellbeing of the plants so that you can use control systems to — oh, well, we need a little more nitrogen in bed number 27. And you can do this all from a remote access, or you can use drones that are flying over fields or, you know, other types of imaging from satellite that allow you to monitor crops and monitor the environments in a manner that is more energy efficient and effective in keeping your plants healthy and productive.
+        <br>
+        <br>
+        Host:Man. There’s a lot of NASA stuff that gets recycled on Earth, isn’t there?
+        <br>
+        <br>
+        Anna-Lisa Paul:You bet.
+        <br>
+        <br>
+        Gioia Massa: Definitely. Yeah. I mean, we can even go to, you know, an older example, and that’s LED lighting for crop growth and, you know, the entire first idea of using Light Emitting Diodes to grow plants was NASA-funded research at the University of Wisconsin. They have the original patent for it. And since then, it’s, you know, taken off for indoor horticulture all over the world. And now LEDs, you know, you can buy them on Amazon and grow greens on your kitchen counter. And so, it all started with NASA-funded research.
+        <br>
+        <br>
+        Host: I want to kind of retrace my steps on something because, earlier, you had both mentioned about the necessity or certainly the great probability that, before we sent people to Mars, we would send other things. We’d send some of their supplies ahead. Some of it would land, including, I take it, the hardware to be assembled later or not, that would allow them to grow the plants. The greenhouse would get there before the crew would.
+        <br>
+        <br>
+        Anna-Lisa Paul:That is certainly a notion that a lot of people have entertained. I don’t think there’s anything on the books for that, but there are any number of notions of how one would do that, whether you would, say, stick it inside a lava tube or something that would allow it to be totally protected from the outside elements or have areas of transparency that would allow you to use ambient light. There’s as many variations on that theme as you can possibly think of. Does anybody have it designed yet? No, but it’s like anything, the notion is there.
+        <br>
+        <br>
+        Gioia Massa: Yup. It’s something being considered, and, you know, one of the things that I think there’s a lot of work going, you know, as Anna-Lisa talked about remote sensing and also the automation and the robotics that would be needed for plant care. And, you know, this comes back to figuring out what the astronauts will do and what will be autonomously done or potentially, you know, remotely done in terms of plant care because we’re not sending astronauts to Mars to be subsistence farmers. We’re sending astronauts to Mars to explore Mars. And so, we need to make sure that they have as much time and energy for that as possible but still have the ability to have fresh produce. So, we’re looking at, you know, being able to do a lot of these operations with robots and autonomously.
+        <br>
+        <br>
+        Anna-Lisa Paul: Yeah, good point.
+        <br>
+        <br>
+        Gioia Massa: And, you know, maybe the crew members will always want to pick the ripe tomatoes or the ripe strawberries, but they’re not going to want to water all their plants or they’re not going to want to, you know, do a lot of crop maintenance and pollination every day perhaps. And so, if we have the capability to do all of that without astronauts and then have the opportunity for humans to intervene when they want and still be able to enjoy the plants, then it stops becoming a chore and it starts becoming a pleasure.
+        <br>
+        <br>
+        Host:Is there any sense of whether or not the amount of time it takes for a crop to grow and mature is the same when you grow them in space as when we grow them on Earth?
+        <br>
+        <br>
+        Anna-Lisa Paul:Well, I can certainly tell you about Arabidopsis now. Whether you would consider that a crop or not, you can eat it. We’ve done that experiment. But there are some variations. But it’s not substantial enough that it couldn’t be mitigated typically by, you know, lightings, carbon dioxide variations, things along those lines —
+        <br>
+        <br>
+        Host:Or just planned around.    
+        <br>
+        <br>
+        Anna-Lisa Paul:I’m sorry, say again?
+        <br>
+        <br>
+        Host:Or just planned around. We know it’s going to take x to grow this, so we prepare for it, but it’s not a substantial difference.
+        <br>
+        <br>
+        Anna-Lisa Paul:That’s right. There’s not a large enough difference between the way plants grow in space or the way plants grow on the ground that is insurmountable as long as you plan for it.
+        <br>
+        <br>
+        Gioia Massa: Yeah. The big difference, really, comes from, you know, growing in a controlled environment versus they growing outside. So if you’re growing in a controlled environment where you’re controlling your light and your temperature and your moisture and your nutrients and your atmosphere, and you control all of those in, you know, the happy zone for plants in kind of an optimum way, then you’ll grow your plants much, much faster than if they’re growing out in the field and they’re subjected to weather and insects and all of the other stresses that, you know, that traditional agriculture crops face. So, we can actually get, you know, many more cycles of crops grown indoor, but we, again, really, even with the larger crop plants, haven’t seen much difference between flight and ground if you can keep all of those environments, you know, aspects in the right zone.
+        <br>
+        <br>
+        Anna-Lisa Paul:Right. Right. Exactly. In fact, one of the things that, the first time we grew Arabidopsis in this habitat called Veggie that Gioia was talking about earlier, when we did the first ground verification type test, the first test preparing for a spaceflight experiment, we were astounded that we were growing many cabbages. And the Arabidopsis plants were far more robust and far more plump and juicy looking than the ones that we normally grow in our growth chambers here at the University of Florida. And the reason was because we were growing them in the projection of carbon dioxide levels and lighting levels that we would be using on the space station. And with the extra lighting and the extra CO2 that these Arabidopsis plants were getting that you don’t get normally here in the growth chambers in Florida, they were going to town, and it was astonishing. And so, in that case, we had to calibrate back all our timing because they were growing faster and more robustly than they would grow normally. And it wasn’t because of spaceflight. It was because, as Gioia mentioned, it was the hardware and the environment in which they were grown.
+        <br>
+        <br>
+        Host:They were the ideal growing conditions within that environment plus no enemies, no pests.
+        <br>
+        <br>
+        Anna-Lisa Paul:Yeah. Yeah. That’s a really good point, too. Not only can you control the photons and the nutrients going in. You can also control who gets access.
+        <br>
+        <br>
+        Host:Talk about the next step in development of the hardware. I mean, the hardware, as you’ve just described, is going gangbusters in some of these experiments in growing plants bigger and faster than you expected. What do you have to do in hardware in order to get a system that will be reliable enough to be supplying a major portion of an astronaut’s diet?
+        <br>
+        <br>
+        Gioia Massa: Well, I’ll give a start to that, and then Anna-Lisa, I know, will have comments on it. But, you know, we’re learning a lot with Veggie, and Veggie is, you know, a really small chamber, and it’s not a very sustainable, you know, reusable approach to growing. But we also have the Advanced Plant Habitat on the ISS, which is really our plant physiology research tool. It’s a very complicated, controlled chamber. And so we’re learning lessons from both of these that are driving our future space crop production growth systems, and it probably will not be as simple as Veggie because we’re going to have some additional aspects of control, but it won’t probably need to be as complex as the APH because we don’t need to control everything to a degree that we would want for research for a production system. Like you said, we’ll want those environmental optimization instead of just, you know, all the potential variables. But the water and nutrient delivery system is really our biggest challenge right now that we’re dealing with for the plant growth. We want something that will be reusable and that will provide good water and oxygen in the root zone so we’re not kind of falling off this tightrope we’re walking between kind of a flood environment and a drought environment. And I think a lot of the work that Anna-Lisa has talked about in terms of detection of stress is going to be critical for that, and maybe she can talk more on that.
+        <br>
+        <br>
+        Anna-Lisa Paul:Right. Right. So, yeah Gioia that’s on the button. For growing stuff to eat, you don’t have to so much worry about, for instance, having things so precisely controlled that you want to take any of the extraneous stress out of the equation for trying to dissect the microgravity responses. And so, for us, doing an experiment for research purposes, we want to have the stress minimized to the greatest possibility we can. We want to have the ground control unit and the spaceflight unit be as tightly aligned as humanly possible so that the only variable that’s introduced into your equation is the spaceflight environment itself. But as Gioia says, that’s a big challenge because water doesn’t behave the same on Earth as it does on microgravity environment. And so, it’s a real challenge to mitigate some of those responses. But if you’re just trying to grow plump, healthy plants, you don’t have to worry about that quite so much, and you can concentrate on tweaking the system sort of in-situ. Now, the kind of experiments we do, certainly set the stage for knowing what those parameters are because we can, again, look into that Arabidopsis toolbox and see what it is that the plants are trying to deal with, and then we can translate that into trying to grow a mustard plant and tweak the hardware such that we know that, well, you know, they’re not going to like this, so let’s try if we modify things in this fashion and that kind of thing.
+        <br>
+        <br>
+        Host:Wow. Do you foresee a day working on the hardware that you work all the way up to replicators?
+        <br>
+        <br>
+        Anna-Lisa Paul:Well, you know, they’re getting pretty close. You can put carbohydrate mush in and get printed pizza out or something along those lines, but yeah, as big of a “Star Trek” fan as I am, I think that’s a bit of a stretch.
+        <br>
+        <br>
+        Host:Yeah. Well.       
+        <br>
+        <br>
+        Gioia Massa: But I do think the food system is probably going to be pretty complex, you know, when we’re living on Mars. I mean, it won’t be a replicator, but, you know, right now, the folks at NASA are assessing all the different possible space of food system. And while I think that plants are going to be a big part of that space, there’s some really interesting things out there, you know, like the cellular agriculture, you know, and looking at synthetic meats or dairy or eggs because we’re not going to be taking cows and chickens to Mars. And so, can we use microbiology in cell culture to get some of those things, you know? And then things like 3D printers for food, I mean, it’s a really incredible and fast-changing space, so I really look forward to see what’s going to happen there.
+        <br>
+        <br>
+        Anna-Lisa Paul:Yeah. And also, don’t forget, again, how malleable plants are that you can, indeed, engineer them to make things that you like. I mean, it’s not exactly a replicator, but you certainly can engineer plants for different flavors, for different types of carbohydrates, different oils and things that can greatly expand your capabilities to have a diversity of food objects that is beyond what we typically think about when we go to the grocery store.
+        <br>
+        <br>
+        Host:It’s so important to the future success of these missions, and it’s fascinating to hear you talk about it. I appreciate you taking the time. Thank you very much. Anna-Lisa Paul and Gioia Massa, we appreciate you joining us today.
+        <br>
+        <br>
+        Anna-Lisa Paul:Thank you so much.
+        <br>
+        <br>
+        Gioia Massa: Yeah, thank you. It’s a pleasure.
+        <br>
+        <br>
+        Host: There is so much to figure out to pull off a mission of sending human beings to Mars, and feeding the astronauts is just a part of it, and not a small part, but you know that already, especially if you’ve been keeping up with our Mars Monthly series. The October episode, number 164, “Eat Like a Martian,” touched on some of the same ground that we discussed today about the role that plants will play on these trips. It’s intriguing to me to realize the depths that scientists and engineers have to go to as they design and produce the systems and the hardware that’ll be needed to support human beings when we finally send them off to destinations so far away that the missions will take literally years to complete. You can keep up with the latest online at NASA.gov. Search for Artemis and moon–to-mars. I’ll remind you, in fact, you can go online to keep up with all things NASA at NASA.gov. And when you do, use the hashtag #AskNASA to submit a question or suggest a topic for us. Indicate that it’s for Houston We Have a Podcast. You can find the full catalog of all of our episodes by going to NASA.gov/podcasts and scrolling to our name. You’ll find all the other NASA podcasts right there, too, the same spot, NASA.gov/podcasts. This episode was recorded on August 13, 2020. Thanks to Alex Perryman, Gary Jordan, Norah Moran, Belinda Pulido, and Jennifer Hernandez with their help in the production, to Nicole Rose and David Brady in the Space Station Program science office, and to Gioia Massa and Anna-Lisa Paul for helping us get a better understanding of the importance of plants for future space exploration. We’ll be back next week.
+      </p>
+      </div>
+      <div class="credits_cont">
+        <p class="credits">CREDITS: NASA.gov</p>
+      </div>
+    </div>
+  </body>
+</html>

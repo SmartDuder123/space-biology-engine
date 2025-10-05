@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Videos</title>
+    <style>
+      * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      .title {
+        font-size: 50px;
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .img_cont {
+        width: 100%;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .img {
+        height: 371px;
+        width: 500px;
+      }
+
+      .vid_cont {
+        width: 100%;
+        height: fit-content;
+        padding-right: 20px;
+        display: grid;
+        justify-content: center;
+      }
+
+      .radimg_cont {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+
+      .yeastimg_cont {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .yeastimg {
+        height: 310px;
+        width: 664px;
+      }
+
+      .credits_cont {
+        width: 100%;
+        height: 30px;
+        margin-top: 50px;
+      }
+
+      .credits {
+        font-size: 20px;
+        background-color: rgba(255, 255, 0, 0.388);
+      }
+
+      .returnbutton {
+        position: fixed;
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+        top: 2px;
+        right: 2px;
+        cursor: pointer;
+      }
+
+      .returnbutton:hover {
+        background-color: rgb(230, 230, 230);
+      }
+
+      .returnbutton:active {
+        background-color: rgb(210, 210, 210);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title_cont">
+      <p class="title">Videos</p>
+      <a href="/space-biology-engine/main.html"
+        ><button class="returnbutton">Return to Home</button></a
+      >
+    </div>
+
+    <div class="vid_cont">
+      <video controls width="840" height="360">
+        <source
+          src="https://svs.gsfc.nasa.gov/vis/a030000/a031300/a031338/mice-in-space-fs.webm"
+          type="video/webm"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <div class="vid1_cont">
+        <iframe
+          width="840"
+          height="473"
+          src="https://www.youtube.com/embed/iApjVuYHrws"
+          title="How Fruit Flies Help us Understand Human Responses to Microgravity"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="credits">Credits: NASA.gov, NASA Johnson</div>
+    </div>
+  </body>
+</html>

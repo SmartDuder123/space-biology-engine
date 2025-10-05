@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gravitational Biology</title>
+    <style>
+      * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      .title {
+        font-size: 50px;
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .img_cont {
+        width: 100%;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .img {
+        height: 371px;
+        width: 500px;
+      }
+
+      .text_cont {
+        width: 90%;
+        height: fit-content;
+        padding-right: 20px;
+      }
+
+      .radimg_cont {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+
+      .yeastimg_cont {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .yeastimg {
+        height: 310px;
+        width: 664px;
+      }
+
+      .credits_cont {
+        width: 100%;
+        height: 30px;
+        margin-top: 50px;
+      }
+
+      .credits {
+        font-size: 20px;
+        background-color: rgba(255, 255, 0, 0.388);
+      }
+
+      .returnbutton {
+        position: fixed;
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+        top: 2px;
+        right: 2px;
+        cursor: pointer;
+      }
+
+      .returnbutton:hover {
+        background-color: rgb(230, 230, 230);
+      }
+
+      .returnbutton:active {
+        background-color: rgb(210, 210, 210);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title_cont">
+      <p class="title">Gravitational Biology</p>
+      <a href="/space-biology-engine/main.html"
+        ><button class="returnbutton">Return to Home</button></a
+      >
+    </div>
+
+    <div class="img_cont">
+      <img
+        src="https://science.nasa.gov/wp-content/uploads/2023/04/arc-2010-acd10-0062-006orig.png"
+        alt="Microrganisms"
+        class="img"
+      />
+    </div>
+
+    <div class="text_cont">
+      <p class="text1">
+        Gravitational biology is the study of the effects gravity has on living
+        organisms. Throughout the history of the Earth life has evolved to
+        survive changing conditions, such as changes in the climate and habitat.
+        However, one constant factor in evolution since life first began on
+        Earth is the force of gravity. As a consequence, all biological
+        processes are accustomed to the ever-present force of gravity and even
+        small variations in this force can have significant impact on the health
+        and function and the system of organisms.
+      </p>
+      <p class="text2">
+        Cell and molecular biology research cuts across all science disciplines
+        in Space Biology, from understanding how single-celled organisms, such
+        as protozoa, bacteria, and fungi respond to the conditions of
+        spaceflight, to how all of the various cells in a complex tissue or
+        organ work together to help an organism as a whole acclimate to such a
+        foreign environment. The overarching goal of Space Biology Cell and
+        Molecular Biology research at NASA is to determine how the stresses of
+        the spaceflight environment affect living systems at the basic cellular
+        and molecular levels, using contemporary cell and molecular biology
+        techniques and measures. This includes characterizing and identifying
+        changes in gene and protein expression, DNA function and structure,
+        cellular structure and morphology, and cell-to-cell communication.
+      </p>
+      <p class="text3">
+        Altered gravity is a unique feature of the physical environment of
+        space: reduced gravity on the surfaces of the Moon and Mars, and
+        microgravity in orbit. Most microbes are too small to sense the force of
+        gravity directly, but one way they may experience its effects is through
+        its influence on their fluid environment. On Earth, gravity drives fluid
+        mixing via density-driven convection; less gravity means less convective
+        mixing. Everywhere microbes are found, they tend to live in multispecies
+        communities, and commonly depend on chemical exchange through their
+        environments to communicate and/or share resources. We are studying the
+        potential effects of microgravity on multispecies communities using
+        rotating wall vessels (RWVs) in the lab and are particularly interested
+        in understanding the fidelity of microgravity simulation and the effects
+        of experimental parameters such as rotation rate on that fidelity. We
+        are also collaborating with the Computational Materials Group to build a
+        simulation of the physical, biological, and chemical interactions of
+        microorganisms in liquid culture in space, called CAMDLES: computational
+        simulation of microbial populations in spaceflight (read about an early
+        version of this model here.) This work has been funded by a grant from
+        the NASA Space Biology Program and the Ames Center Innovation Fund.
+      </p>
+      <p class="text4">
+        Space radiation comes in many different flavors. Charged-particle
+        radiation in the form of Galactic Cosmic Rays (GCR) and Solar Particle
+        Events (SPE) pose a substantial health risk to organisms traveling
+        beyond Low Earth Orbit. However, for a tiny microbial cell, getting hit
+        by a radiation particle can actually be a relatively rare event. What
+        does this mean for our understanding of the effects of radiation on
+        microbes, and how does that differ from what we know about radiation
+        effects on multicellular organisms? Studying radiation from the
+        perspective of individual microbial cells has implications not only for
+        our ability to design microbial bioproduction systems to sustain human
+        life in deep space, but also for our ability to interpret spaceflight
+        radiobiology experiments using microbes as model organisms.
+      </p>
+      <div class="radimg_cont">
+        <img
+          class="radimg"
+          src="https://www.nasa.gov/wp-content/uploads/2024/05/radio-microbiology-study-graph-e1716927898695.png"
+          alt="Radiation Grid"
+        />
+      </div>
+      <p class="text5">
+        We are using diverse wet-lab methods to study single-cell radiation
+        effects in yeast, including a collaboration with the Di Carlo Lab at
+        UCLA to encapsulate yeast cells in hydrogel particles to facilitate
+        lineage tracking. We have also developed a computational model to
+        simulate yeast population growth in the presence of radiation, called
+        AMMPER: Agent-based Model of Microbial Populations Exposed to Radiation
+        (open-source and available at NASA GitHub). This work has been supported
+        by MUREP, Space Grant, and the Ames Research Innovation Award.
+      </p>
+      <p class="text6">
+        Adaptive evolution plays a major role in the appearance of new
+        phenotypes in nature and is of key importance in biomedical research,
+        including the onset of carcinogenesis and in the emergence of
+        drug-resistant microorganisms. The harsh environment of space provides
+        the ideal environment for the acquisition of adaptive mutations,
+        particularly in microbial organisms. Experimental evolution studies in
+        the laboratory allow us to better understand how specific mutations
+        arise under spaceflight conditions. Our primary goal is to investigate
+        how a eukaryotic organism responds to simulated microgravity after
+        multiple generations. S. cerevisiae or budding yeast is a single-cell
+        model eukaryote that has been widely used in biomedical research,
+        primarily due to its well-characterized biology, easy manipulation,
+        short division time, and, most importantly, its similarities with human
+        cell functions. We hypothesize that beneficial mutations acquired
+        through multiple generations under simulated microgravity will render
+        cells with increased growth and/or metabolic rates, and phenotypes
+        different to those observed in 1g controls. Studies like the one
+        proposed here will allow us to identify beneficial mutations responsible
+        for an adaptive response to space-like conditions. This project is a
+        collaboration with the Sherlock Lab at Stanford University. Dr.
+        Sherlock’s team has developed barcoded yeast libraries, and the
+        different DNA manipulation and next-generation sequencing approaches
+        that are being used in this study. Once completed, all project data will
+        be archived in the NASA GeneLab repository. This project has been funded
+        by a grant from the NASA Space Biology program to Principal Investigator
+        Sergio Santa Maria.
+      </p>
+      <div class="yeastimg_cont">
+        <img
+          class="yeastimg"
+          src="https://www.nasa.gov/wp-content/uploads/2024/05/space-yeast.png"
+          alt=""
+        />
+      </div>
+      <div class="credits_cont">
+        <p class="credits">CREDITS: wikipedia.org, NASA.gov</p>
+      </div>
+    </div>
+  </body>
+</html>
